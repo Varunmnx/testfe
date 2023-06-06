@@ -15,7 +15,7 @@ function App() {
           <Router>
                     <Routes>
                             <Route path='/restricted' element={<AuthenticationRequired  component={<RestrictedPage />} /> }/>
-                            <Route path='/home' element={<Home />}/>
+                            <Route path='/' element={<Home />}/>
                             <Route path='/login' element={ <RestrictAuthenticatedUser component={<Login/>} /> } /> 
                     </Routes>
           </Router>

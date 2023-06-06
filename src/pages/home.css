@@ -7,6 +7,14 @@
 
 }
 
+.hamburger{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 30px;
+    left: 80px;
+}
+
 .project-name{
     font-style: normal;
     font-weight: 400;

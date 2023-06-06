@@ -36,7 +36,7 @@ const DeviceStatus = () => {
                         {
                             devices.map(dev=>{
                                    return (
-                                           <div className='device-status-table-title-data'>
+                                           <div className='device-status-table-title-data' key={dev.name}>
                                               <span>{dev.name}</span>
                                               <span > <span className={dev.status==="offline"?"red":"green"}>{dev.status}</span> </span>
                                               <span>{dev.lastresponse} </span>

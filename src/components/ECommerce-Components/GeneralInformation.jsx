@@ -18,7 +18,7 @@ const GeneralInformation = () => {
                <div className='flex flex-gap-20'>
                    {
                       generalInfoContent.map((item)=>{
-                       return <div className='name-with-bar'>
+                       return <div className='name-with-bar' key={item.name}>
                                        <span className='it-name'>{item.name}</span>
                                        <ProgressBar percentage={item.value}/>
                                        <span className='it-per'>{ Math.round(item.value / 10).toString().padStart(2,"0") } / 10 </span>

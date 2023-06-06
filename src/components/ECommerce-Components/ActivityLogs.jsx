@@ -46,7 +46,7 @@ const ActivityLogs = () => {
                       staticData.map(devices=>{
                            return (
                             <>
-                                 <ActivityLogElement  name={devices.name} des={devices.des }  time={devices.time} img={devices.img} />
+                                 <ActivityLogElement key={devices.name}  name={devices.name} des={devices.des }  time={devices.time} img={devices.img} />
                             </>
                            )
                       })

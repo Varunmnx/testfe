@@ -14,15 +14,14 @@ import ActivityLogs from '../components/ECommerce-Components/ActivityLogs'
 import Floationg from "../assets/headphone.png"
 import Location from '../components/LocationAndDomainQuota/Location'
 import DomainQuota from '../components/LocationAndDomainQuota/DomainQuota'
-
-
+import ham from "../assets/ham.png"
 
 const Home = () => {
   const [open ,setOpen] = useState(true)
   const percentage = 66;
   return (
     <div className='home-container'>
-       { open && <SideMenu setOpen={setOpen}/>}
+       { open ? <SideMenu setOpen={setOpen}/> : <img  src={ham} alt='hamburger' onClick={()=>setOpen(state=>!state)} className='hamburger'/>}
        <NavBar/>
 
        <DontHideContentUnderDashboard opened={open} setOpened={setOpen}>
