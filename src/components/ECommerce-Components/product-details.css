@@ -1,0 +1,42 @@
+.product-details-wrapper{
+    width: 100%;
+    background-color: white;
+    height:78px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.prod-name{
+    font-weight: 400;
+font-size: 15px;
+}
+
+.prod-name{
+    color: black;
+}
+
+.padding-21{
+    padding: 21px;
+}
+
+.product-details-tb{
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    width: 200px;
+}
+
+.product-details-tb > span:first-child{
+    font-weight: 400;
+    font-size: 14px;
+    color: #C6C6C6;
+}
+
+.product-details-container{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+}

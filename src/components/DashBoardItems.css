@@ -1,0 +1,25 @@
+.dash-board-item{
+    width: 100%;
+    height: 32px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+}
+.nav-item{
+    width: 30px;
+    height: 32px;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.nav-item:hover{
+  scale: 0.9;
+}
+.dash-board-item:hover{
+    background-color: #082A56;
+}

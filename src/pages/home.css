@@ -1,0 +1,52 @@
+.home-container{
+    background-color: #FAFAFA;
+    max-width: 100vw;
+
+    max-height: 100vh;
+
+
+}
+
+.project-name{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+}
+
+.four-four-layout{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 20px;
+}
+
+.flex-row-gp-20{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.flex-col-gp-20{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.floating-headphone{
+    position: absolute;
+    bottom: 30px;
+    right: 50px;
+    height: 48px;
+    cursor: pointer;
+}
+
+.floating-headphone:hover{
+    scale:0.9;
+}
+
+.two-col-layout{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    
+}

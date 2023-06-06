@@ -1,0 +1,15 @@
+.pb-container{
+    width: 210px;
+    height: 15px;
+    background: #EDEDED;
+    border-radius: 20px 0px 0px 20px ;
+
+}
+
+.pb-bar{
+     height: 100%;
+     width: 0%;
+     background-color: #0B3366;
+     transition: 0.5s all;
+     border-radius: 20px 20px 20px 20px ;
+}
